@@ -1,5 +1,4 @@
 import java.util.Scanner;
-
 public class Spiralmatrix {
     public static void printspiral(int matrix[][])
     {
@@ -14,7 +13,6 @@ public class Spiralmatrix {
             {
                 System.out.print(matrix[startrow][j]+ " ");
             }
-            
             //right
             for(int i=startrow+1;i<=endrow;i++)
             {
